@@ -9,7 +9,7 @@ class Welcome extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
-		$this->load->model('print_con');
+		
 		
 	}
 
@@ -37,7 +37,7 @@ class Welcome extends CI_Controller {
 	}
 	
 	public function pdf()
-	{	$this->load->model('print_con');
+	{	
 		 $data = array('fdate'=>$_SESSION['fdate'],'tdate'=>$_SESSION['tdate']);
 		$data12 = $this->print_con->puserList($data);
 		
@@ -98,7 +98,7 @@ $mpdf->setFooter('{PAGENO}/{nbpg}');
 
 	public function excel()
 	{
-		$this->load->model('print_con');
+		
 		$data = array('fdate'=>$_SESSION['fdate'],'tdate'=>$_SESSION['tdate']);
 		$data12 = $this->print_con->puserList($data);
 
