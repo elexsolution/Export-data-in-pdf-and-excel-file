@@ -11,6 +11,10 @@ main feature is that data availability between **chosen Date interval**.
 - small
 - fast
 
+### Note
+
+- Data available in database between 2013 to 2016
+
 ### Download / Install
 
 ##### Step 01
