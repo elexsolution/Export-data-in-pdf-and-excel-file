@@ -5,11 +5,11 @@ main feature is that data availability between **chosen Date interval**.
 
 ### Core idea
 
--simple code
--data in pdf/excel simultaneously
--latest third part library using
--small
--fast
+- simple code
+- data in pdf/excel simultaneously
+- latest third part library using
+- small
+- fast
 
 ### Download / Install
 
@@ -37,4 +37,4 @@ change base url in config file from config directory
 | --- | --------------------------------------------------- |
 
 
-| I hope you like my work. I’ve put a lot of hours into it! Feel free to contact me on [website](https://www.elexsolution.com) for news and other updates;)
+I hope you like my work. I’ve put a lot of hours into it! Feel free to contact me on [website](https://www.elexsolution.com) for news and other updates;
