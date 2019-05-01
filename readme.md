@@ -1,22 +1,40 @@
----
+# Export data in pdf and excel file by using codeIgniter
 
-Export Data in pdf and Excel through third party
-library mpdf and phpspreadsheet by codeIgniter.
+Perfect example for **view** and **download** data in the form of **pdf/excel** file with using latest CodeIgniter framework,spreadsheet and mpdf library.
+main feature is that data availability between **chosen Date interval**.
 
-Author:Anesh Kumar
-web:https://elexsolution.com/
+### Core idea
 
-\***\*\*\*\*\*\*\***How to install****\*\*\*\*****\*\*****\*\*\*\*****
-step1
-create database in mysql
+-simple code
+-data in pdf/excel simultaneously
+-latest third part library using
+-small
+-fast
+
+### Download / Install
+
+##### Step 01
+
+```
 install database from database directory
-step2  
- configure database name and password in database file from config directory
+```
 
-**\*\*\*\***\*\*\*\***\*\*\*\***Credit**\*\*\*\***\***\*\*\*\***
-CodeIgniter:3.1.10
-Mpdf: v8.0.0
-PhpSpreadsheet: 1.4.7
-**\*\***\***\*\***Requirement**\*\***\***\*\***
-PHP:7.3.1
-MYSQL:5.7.24
+##### Step 02
+
+```
+configure database name and password in database file from config directory
+```
+
+##### Step 03
+
+```
+change base url in config file from config directory
+```
+
+### Creator
+
+|     | Anesh Kumar [@Visit](https://www.elexsolution.com/) |
+| --- | --------------------------------------------------- |
+
+
+| I hope you like my work. I’ve put a lot of hours into it! Feel free to contact me on [website](https://www.elexsolution.com) for news and other updates;)
