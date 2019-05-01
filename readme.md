@@ -7,7 +7,7 @@ main feature is that data availability between **chosen Date interval**.
 
 - simple code
 - data in pdf/excel simultaneously
-- latest third part library using
+- latest third party library using
 - small
 - fast
 
