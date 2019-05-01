@@ -1,0 +1,40 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	color: #373737;
+	font-family: "Noto Serif", serif;
+	font-size: 1rem;
+}
+.hpad {
+	padding-top: 2rem;
+}
+/*Table*/
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	padding-top: 20px;
+	font-size: 10px;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
