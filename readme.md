@@ -1,4 +1,4 @@
-# Export data in pdf and excel file by using codeIgniter
+# PHP to pdf and excel file by using codeIgniter
 
 Perfect example for **view** and **download** data in the form of **pdf/excel** file by using latest CodeIgniter framework,spreadsheet and mpdf library.
 main feature is that data availability between **chosen Date interval**.
