@@ -108,6 +108,17 @@ $mpdf->setFooter('{PAGENO}/{nbpg}');
 $sheet = $spreadsheet->getActiveSheet();
 $sheet->getPageSetup()->setFitToWidth(1);
 $sheet->getPageSetup()->setFitToHeight(0);
+$styleArrayFirstRow = [
+	'font' => [
+	    'bold' => true,
+	]
+        ];
+        
+        
+        $highestColumn = $sheet->getHighestRow();
+        
+        
+        $sheet->getStyle('' . $highestColumn . '' )->applyFromArray($styleArrayFirstRow);
 $sheet->getColumnDimension('A')->setWidth(50);
 $sheet->getColumnDimension('B')->setWidth(50);
 $sheet->getColumnDimension('C')->setWidth(16);
