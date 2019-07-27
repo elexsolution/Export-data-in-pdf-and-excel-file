@@ -88,7 +88,7 @@ $mpdf->setFooter('{PAGENO}/{nbpg}');
 		";
 		$mpdf->WriteHTML($html);
 		
-		$mpdf->Output();
+		$mpdf->Output('Store report.pdf',\Mpdf\Output\Destination::DOWNLOAD);
 	}
 
 
@@ -139,7 +139,7 @@ $sheet->setCellValue('E'.$row,$value->Quantity);
 $row++;
 }  
 header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-header('Content-Disposition: attachment;filename="Store User List.xlsx"');
+header('Content-Disposition: attachment;filename="Store_List.xlsx"');
 header('Cache-Control: max-age=0');
 
 $writer = new Xlsx($spreadsheet);
